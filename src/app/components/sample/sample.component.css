@@ -1,0 +1,154 @@
+.sample {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  color: #333;
+  background: #fafafa;
+}
+.container-background {
+  background-image: url('../../../assets/images/maos.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+.accordion-body {
+  background-color: rgb(221, 186, 180);
+  color: black;
+   /* Light gray */
+}
+.accordion-button {
+  background-color: black;
+  color: rgb(221, 186, 180);
+}
+.accordion-item {
+  border-color: #dee2e6; /* Light gray border */
+}
+.pink-background{
+    background-color: rgb(221, 186, 180);
+    padding: 50px 0px;
+}
+
+.font-color{
+    color: rgb(221, 186, 180);
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    font-weight: 500;
+}
+.second-title{
+        font-size: 18px;
+        font-weight: bold;
+        font-weight: 400;
+    }
+
+.subtitle{
+    font-size: 14px;
+    font-weight: 300px;
+}
+.black-background{
+    padding-top: 100px;
+}
+
+.image-buy{
+    max-height: 150px;
+}
+.padding-top-large{
+    padding-top: 50px;
+}
+/* Tablet (≥576px) */
+@media (min-width: 576px) {
+  .subtitle {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .black-background{
+    padding-top: 100px;
+    }
+    .image-buy{
+        max-height: 100px;
+    }
+    .second-title{
+        font-size: 26px;
+        font-weight: bold;
+        font-weight: 500;
+    }
+
+    .title{
+        font-size: 30px;
+        font-weight: bold;
+        font-weight: 500;
+    }
+}
+
+/* Desktop (≥768px) */
+@media (min-width: 768px) {
+  .subtitle {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .image-buy{
+        max-height: 100px;
+    }
+    .second-title{
+        font-size: 26px;
+        font-weight: bold;
+        font-weight: 500;
+    }
+
+    .title{
+        font-size: 30px;
+        font-weight: bold;
+        font-weight: 500;
+    }
+    .image-buy{
+        max-height: 100px;
+    }
+    .black-background{
+        padding: 100px 0px;
+    }
+    .pink-background{
+        background-color: rgb(221, 186, 180);
+        padding: 80px 0px;
+    }
+    .padding-top-large{
+        padding-top: 100px;
+    }
+    .padding-top-large{
+        padding-top: 100px;
+    }
+}
+
+/* Large Desktop (≥992px) */
+@media (min-width: 992px) {
+  .subtitle {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  .title{
+    font-size: 60px;
+    font-weight: bold;
+    font-weight: 500;
+    }
+    .second-title{
+        font-size: 40px;
+        font-weight: bold;
+        font-weight: 500;
+    }
+    .image-buy{
+        max-height: 100px;
+    }
+    .black-background{
+        padding: 200px 0px;
+    }
+    .pink-background{
+        background-color: rgb(221, 186, 180);
+        padding: 100px 0px;
+    }
+    .padding-top-large{
+        padding-top: 100px;
+    }
+}
