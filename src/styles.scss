@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Override Bootstrap primary color
+ // Ex: #007bff, #0d6efd, #ff6b6b, etc.
+
+// Include Bootstrap SCSS before this override takes effect
+@use 'bootstrap/scss/bootstrap' with (
+    $primary: rgb(221, 186, 180)
+);
+html { height: 100%; }
+body { margin: 0;   font-family: "Montserrat", sans-serif; min-height: 100vh; }

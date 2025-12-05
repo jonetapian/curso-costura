@@ -1,5 +1,5 @@
 <div class="container-fluid m-0 p-0" style="overflow-x: hidden; overflow-y: auto;">
-    <div class="container-fluid container-background  font-color py-4">
+    <div class="container-fluid container-background  font-color py-4 px-3">
         <div class="row justify-content-center">
             <div class="col-md-4 col-sm-4 col-6 col-lg-2  text-center">
                 <img src="assets/images/logo.png" alt="Logo" class="img-fluid my-3 img-logo" >
@@ -22,23 +22,25 @@
                 </div>
                 <div class="row mt-2">
                     <div class="col">
-                        <label class="second-title">Adquira agora o e-book completo por apenas <strong>R$ 49,90</strong></label>
+                        <label class="second-title">Adquira agora o curso completo por apenas <strong>R$ 197,00</strong></label>
                     </div>
                 </div>
                 <div class="row justify-content-center mt-5 mb-4">
-                    <div class="col-8 col-md-8  col-sm-8 col-lg-6">
-                        <button matButton="filled" class="w-100 font-color">QUERO MEU E-BOOK</button>
+                    <div class="col-8 col-md-8  col-sm-8 col-lg-4">
+                        <ng-container *ngTemplateOutlet="button; context:{ w: 'w-100'}"></ng-container>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-black font-color  black-background flex-grow-1 pb-5">
+    <div class="container-fluid bg-black font-color  black-background flex-grow-1 pb-5 px-3">
         <div class="row justify-content-center">
             <div class="align-self-center col-12 col-sm-12 col-md-6 col-lg-6 order-2 order-md-1 order-lg-1 text-center align-items-center mt-5 mt-md-0 mt-lg-0" >
-                <span class="lead align-middle subtitle"><span class="title">O e-book,</span> <br>Tudo o que você precisa para dominar a modelagem,<br> O e-book Simplificando a Modelagem é um guia completo que ensina passo a passo as técnicas essenciais para criar peças com acabamento profissional, Desenvolvido para quem deseja iniciar do zero ou aperfeiçoar suas habilidades, este material oferece um método claro, descomplicado e eficaz</span>
-                <button matButton="filled" class="w-100 font-color mt-4">QUERO MEU E-BOOK</button>
-
+                <span class="lead align-middle subtitle pb-3"><span class="title">O curso,</span> <br>Tudo o que você precisa para dominar a modelagem. O Curso Simplificando a Modelagem é um treinamento completo que ensina, passo a passo, todas as técnicas essenciais para criar peças com acabamento profissional. Desenvolvido tanto para quem deseja começar do zero quanto para quem quer aperfeiçoar suas habilidades, este curso oferece um método claro, descomplicado e extremamente eficaz.</span>
+                <div class="mt-4">
+                    <ng-container  *ngTemplateOutlet="button; context: {w: 'w-75'}">
+                    </ng-container>
+                </div>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-1 order-md-2 ">
                 <div class="ratio ratio-16x9 ">
@@ -53,11 +55,12 @@
             <div class="col align-self-center">
                 <div class="mt-5 mt-md-0 mt-lg-0">
                     <div>
-                        <p class="subtitle align-middle">
-                            <span class="title">QUEM É LIA GOMES ?</span> <br> Com mais de três décadas de experiência no setor da moda, Lia Gomes é referência em modelagem e criação, Ao longo de sua trajetória, atuou em importantes confecções e desenvolveu peças reconhecidas no mercado brasileiro, Agora, ela compartilha todo o seu conhecimento por meio do e-book Simplificando a Modelagem, para que você possa aprender de forma prática e iniciar sua jornada na costura,
-                            <button matButton="filled" class="w-100 mt-4 font-color">QUERO MEU E-BOOK</button>
-
-                        </p>
+                        <span class="subtitle align-middle text-center">
+                            <span class="title">QUEM É LIA GOMES ?</span> <br> Com mais de três décadas de experiência no setor da moda, Lia Gomes é referência em modelagem e criação, Ao longo de sua trajetória, atuou em importantes confecções e desenvolveu peças reconhecidas no mercado brasileiro, Agora, ela compartilha todo o seu conhecimento por meio do curso Simplificando a Modelagem, para que você possa aprender de forma prática e iniciar sua jornada na costura,
+                            <div class="mt-4">
+                                <ng-container *ngTemplateOutlet="button; context : {w: 'w-50'}"></ng-container>
+                            </div>
+                        </span>
                     </div>    
                 </div>        
             </div>
@@ -75,7 +78,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-black font-color  black-background pb-2 flex-grow-1">
+    <div class="container-fluid bg-black font-color  black-background pb-2 flex-grow-1 px-3">
         <div class="row">
             <div class="col text-center title">
                 <p>POR QUE ADQUIRIR?</p>
@@ -112,7 +115,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                Como recebo o e-book?
+                                Como recebo o curso?
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -157,18 +160,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                Como recebo o e-book?
-                            </button>
-                        </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Após a confirmação do pagamento, você receberá um link para download no e-mail cadastrado.
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -181,16 +173,24 @@
                 </div>
                 <div class="row mt-2">
                     <div class="col">
-                        <img src="assets/images/insta.png" class="img-fluid" alt="compra">
+                        <a href="https://www.instagram.com/agape_solucoes_integradas/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/insta.png" class="img-fluid" alt="Instagram">
+                        </a>
                     </div>
                     <div class="col">
-                        <img src="assets/images/face.png" class="img-fluid" alt="compra">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/face.png" class="img-fluid" alt="Facebook">
+                        </a>
                     </div>
                     <div class="col">
-                        <img src="assets/images/tiktok.png" class="img-fluid" alt="compra">
+                        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/tiktok.png" class="img-fluid" alt="TikTok">
+                        </a>
                     </div>
                     <div class="col">
-                        <img src="assets/images/whatslogo.png" class="img-fluid" alt="compra">
+                        <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/whatslogo.png" class="img-fluid" alt="WhatsApp">
+                        </a>
                     </div>
                 </div>
 
@@ -235,7 +235,10 @@
         </div>
     </div>
     <label class="lead text-center">{{text}}</label>
-    <button matButton="outlined" class="w-100 mt-4 font-color">Comprar Agora</button>
+    <a href="https://pay.hotmart.com/Q101677277L?bid=1764951134983" class="btn btn-outline-primary rounded-pill w-100 mt-2" role="button">Comprar Agora</a>
 
 </ng-template>
 
+<ng-template #button let-w="w">
+    <a href="https://pay.hotmart.com/Q101677277L?bid=1764951134983" [ngClass]="w" class="btn btn-outline-primary rounded-pill" role="button">Quero meu curso</a>
+</ng-template>
